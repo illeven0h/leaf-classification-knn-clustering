@@ -4,7 +4,7 @@
 **KNN · K-Means · Agglomerative Clustering on a self-collected leaf image dataset**
  
 [![Dataset on Hugging Face](https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/illeven0h/leaf-classification-dataset)
-[![Open in Colab](https://colab.research.google.com/drive/1bTQZsErZhbN0KFsNVq2_XOTR_RWrlfTf?usp=sharing)](https://github.com/illeven0h/leaf-classification-knn-clustering/blob/main/Leaf_Classification_Notebook.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/illeven0h/leaf-classification-knn-clustering/blob/main/Leaf_Classification_Notebook.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Data license](https://img.shields.io/badge/Data%20license-CC%20BY%204.0-green)
