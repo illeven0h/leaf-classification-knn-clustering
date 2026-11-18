@@ -3,8 +3,8 @@
  
 **KNN · K-Means · Agglomerative Clustering on a self-collected leaf image dataset**
  
-[![Dataset on Hugging Face](https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/YOUR-USERNAME/leaf-classification-dataset)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME/blob/main/Leaf_Assignment_Notebook.ipynb)
+[![Dataset on Hugging Face](https://img.shields.io/badge/🤗%20Dataset-Hugging%20Face-yellow)](https://huggingface.co/datasets/illeven0h/leaf-classification-dataset)
+[![Open in Colab](https://colab.research.google.com/drive/1bTQZsErZhbN0KFsNVq2_XOTR_RWrlfTf?usp=sharing)](https://github.com/illeven0h/leaf-classification-knn-clustering/blob/main/Leaf_Classification_Notebook.ipynb)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
 ![Data license](https://img.shields.io/badge/Data%20license-CC%20BY%204.0-green)
@@ -26,7 +26,7 @@ The central question: *can simple hand-crafted colour, texture and shape feature
  
 ## 🗂️ Dataset
  
-**👉 [Leaf Classification Dataset on Hugging Face](https://huggingface.co/datasets/YOUR-USERNAME/leaf-classification-dataset)**
+**👉 [Leaf Classification Dataset on Hugging Face](https://huggingface.co/datasets/illeven0h/leaf-classification-dataset)**
  
 All images are original photos taken with a **Samsung Galaxy A54** in a home garden. No internet images were used.
  
@@ -95,30 +95,15 @@ Starts with every leaf as its own cluster and repeatedly merges the closest pair
 ### Comparing apples with apples
 Clustering and classification are **not** compared by accuracy. KNN is judged on held-out labelled data; the clustering methods are judged by the **Silhouette Score** (internal) and **ARI / NMI** (agreement with true classes, independent of arbitrary cluster numbers).
  
-## 📊 Results
- 
-> Fill in after running the notebook.
- 
-| Metric | KNN | K-Means (K=3) | Agglomerative (Ward, K=3) |
-|---|---|---|---|
-| Learning type | Supervised | Unsupervised | Unsupervised |
-| Accuracy (held-out) | _X.XX_ | n/a | n/a |
-| Silhouette Score | n/a | _X.XX_ | _X.XX_ |
-| ARI | n/a | _X.XX_ | _X.XX_ |
-| NMI | n/a | _X.XX_ | _X.XX_ |
- 
-**Key findings:** _two or three sentences: best KNN setting, which classes were confused, how well the clusters recovered the plant types._
- 
 ## 📁 Repository structure
  
 ```
 ├── Leaf_Assignment_Notebook.ipynb   # full pipeline: EDA → features → KNN → K-Means → Agglomerative → comparison
 ├── leaf_features.csv                # extracted feature table
 ├── leaf_image_metadata.csv          # per-image statistics
-├── report.pdf                       # written report
 └── README.md
 ```
-The images themselves live on [Hugging Face](https://huggingface.co/datasets/YOUR-USERNAME/leaf-classification-dataset).
+The images themselves live on [Hugging Face](https://huggingface.co/datasets/illeven0h/leaf-classification-dataset).
  
 ## ▶️ Run it yourself
  
